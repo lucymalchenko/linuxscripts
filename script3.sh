@@ -3,7 +3,7 @@
 echo "Hi $name, this script audits your workstation."
 echo "Please use sudo to run the script correcty."
 sudo echo "Script output information about your workstation to file 'output_script_3.log'."
-exec 1> output_script_3.1.log
+exec 1> output_script_3.log
 
 echo "1.Uptime: "$(date)
 echo "2.Current users: "
